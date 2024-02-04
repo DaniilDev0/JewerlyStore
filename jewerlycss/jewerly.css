@@ -1,0 +1,587 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+/* Section-first */
+.section-first {
+  background:url(/jewerly-images/jewerly-background-rings.png) no-repeat 50% / cover lightgray;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.jewerly-main{ 
+  padding-bottom: 60px;
+}
+
+/* Container-main */
+.container-one {
+  width: 1100px;
+}
+/* Header */
+.jewerly-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jewerly-header-wrap {
+  margin-top: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jewerly-header-btn {
+  font-size: 14px;
+  font-style: normal;
+  color: #fff;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.jewerly-header-btn:not(:first-child){
+  margin-left: 40px;
+}
+
+.jewerly-header-btn-image {
+	background-color: inherit;
+	border: none;
+	cursor: pointer;
+}
+
+.jewerly-header-btn-image:not(:first-child){
+  margin-left: 25px ;
+}
+
+.jewerly-header-wrap-logo {
+  margin-top: 25px ;
+}
+
+/* Content */
+.jewerly-content{
+  margin-top: 450px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.jewerly-content-text{
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+
+.jewerly-content-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  
+}
+
+.jewerly-catalog-btn{
+  display: inline-flex;
+  padding: 15px 35px;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--white, #FFF);
+  background: var(--accent, #333);
+  cursor: pointer;
+}
+
+.jewerly-catalog-btn-text {
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.jewerly-content-coco{
+  margin-top: 110px;
+  border-top: solid 1px #fff;
+}
+
+/* Container-two */
+.section-second{
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+}
+
+.container-two{
+  margin-top: 100px;
+  width:1110px
+
+}
+
+.jewerly-event {
+  display: flex ;
+  justify-content: center;
+}
+
+.jewerly-event:not(:first-child){
+  margin-top: 15px;
+}
+
+.jewerly-event-txt{
+  color: var(--accent, #333);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 29.4px */
+}
+
+.jewerly-event-beauty {
+  color: var(--accent, #333);
+  font-family: 'Noto Serif', serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.jewerly-catalog-icon {
+  margin-top: 80px;
+  display: flex;
+}
+
+.jewerly-wedding-btn {
+  background-color: #333;
+  border: none;
+  padding: 20px 36px;
+  cursor: pointer;
+}
+
+.jewerly-catalog-text {
+  color: var(--white, #FFF);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.jewerly-btn-shadowbox{
+  border-color: #d6d6d6;
+  display: flex;
+  justify-content: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  width: 100%;
+  background: white;
+  border-width: 1px;
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.jewerly-shadowbox-wrap:not(:last-child){
+  margin-right: 24px;
+}
+
+.jewerly-catalog-text-white {
+  color: var(--accent, #333);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.jewerly-btn-shadowbox-line{
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  border: 1px solid #d6d6d6;
+  width: 100%;
+  height: 55px;
+  z-index: 10;
+  
+}
+
+.jewerly-shadowbox-wrap {
+  position: relative;
+  width: 16%;
+}
+
+/* catalog-images */
+
+.jewerly-catalog-images {
+  margin-top: 55px;
+}
+
+.jewerly-catalog-images-btn {
+  width: 30%;
+  height: 280px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.jewerly-catalog-images-btn:not(:first-child){
+  margin-left: 30px;
+}
+
+.jewerly-image-btn-inside { 
+  width: 100%;
+  height: 280px;
+}
+
+.jewerly-text-inside {
+  position: absolute;
+  left: 35%;
+  bottom: 15%;
+  color: var(--white, #FFF);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.jewerly-catalog-images-two{
+  margin-top: 30px;
+}
+
+/* Section third */
+.section-third {
+  background-image: url(/jewerly-images/black-background-image.png);
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  height: 541px;
+}
+
+.container-third {
+  margin-top: 100px;
+}
+
+.container-third-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-third-text-one {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.container-third-text-two {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 15px;
+}
+
+.container-third-text-three {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: 45px;
+}
+
+.jewerly-salons {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.jewerly-btn-salons{
+  padding: 15px 35px;
+  border: 1px solid var(--accent, #333);
+  background: var(--white, #FFF);
+  cursor: pointer;
+}
+
+.jewerly-catalog-text-salons {
+  color: var(--accent, #333);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+/* Section four */
+
+.section-four{
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+}
+
+.container-four {
+  width: 1110px;
+}
+
+.container-four-content{
+  margin-top: 120px;
+}
+
+.content-articles {
+  color: var(--accent, #333);
+  text-align: center;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.content-advice {
+  color: var(--accent, #333);
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 15px;
+}
+
+.container-four-images-catalog {
+  margin-top: 60px;
+}
+
+.container-four-btn:not(:first-child){
+  margin-left: 10px;
+}
+
+.container-four-btn {
+  position: relative;
+  height: 370px;
+  border: none;
+  cursor: pointer;
+}
+
+.container-four-text {
+  position: absolute;
+  left: 30%;
+  bottom: 10%;
+  color: var(--white, #FFF);
+  text-align: center;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.container-four-blog-btn{
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+/* Section-five */
+
+.section-five {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+}
+
+.container-five {
+ width: 1110px;
+ margin-top: 120px;
+}
+
+.container-gallery-image {
+  margin-top: 60px;
+}
+
+.gallery-image {
+  margin-right: -4px;
+}
+
+.container-gallery-image-two {
+  margin-top: -4px;
+}
+
+/* Section-six */
+
+.section-six {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(/jewerly-images/black-background-image.png);
+}
+
+.section-six-text {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 29.4px */
+  margin-top: 100px;
+}
+
+.section-six-txt{
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-six-wrap {
+  display: flex;
+  flex-direction:row ;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+
+.section-six-block {
+  margin-right: 80px;
+}
+
+.section-six-block p::after {
+  content: "";
+  position: absolute;
+  right: 1320px;
+  width: 17px;
+  height: 17px;
+  background: url(/jewerly-images/subscribe__icon.svg);
+  margin-top: 5px;
+}
+
+.section-six-block-text {
+  color: var(--white, #FFF);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 25.2px */
+}
+
+.section-six-btn {
+  padding: 15px 35px;
+  border: 1px solid ;
+  background: #333;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.submit-form {
+  background: #fff;
+  padding: 20px 22px;
+  position: relative;
+}
+
+.submit-form::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: -14px;
+  width: calc(100% + 30px);
+  height: calc(100% + 28px);
+  border: solid 1px #fff;
+}
+
+.submit-form input {
+  padding: 14px 20px;
+}
+
+.section-six-span {
+  color: #FFF;
+}
+
+/* section-seven */
+
+.section-seven {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+}
+
+.section-seven-container {
+  width: 1110px;
+  margin-top: 80px;
+  display: flex;
+}
+
+.block-usefull-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.usefull-links {
+  color: var(--accent, #333);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.usefull-links-text {
+  margin-top: 40px;
+  text-decoration: none;
+  color: var(--accent, #333);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+
+}
+
+.usefull-links{
+  border-bottom: 1px solid #333;
+}
+
+.usefull-links-text:not(:first-child){
+  margin-top: 15px;
+}
+
+.block-payment {
+  margin-left: 85px;
+}
+
+.block-footerlogo {
+  margin-top: 21px;
+}
+
+.block-contact {
+  margin-left: 85px;
+}
+
+.block-social {
+  margin-left: 85px;
+}
